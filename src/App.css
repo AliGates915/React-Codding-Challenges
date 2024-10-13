@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  height: 100vh;
+  /* background-color: #f0f0f0; */
+}
+
+div {
+  text-align: center;
+}
+
+
+h1,
+h2 {
+  margin: 10px 0;
+}
+button:hover{
+  cursor: pointer;
+}
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.4em 1em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
